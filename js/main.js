@@ -163,7 +163,7 @@ var resetSelec = function(){
 
 var contEliminados = function(){
     var eliminados = document.querySelectorAll(".eliminado").length + 2;
-    if (eliminados === 2){
+    if (eliminados === 24){
         ganador.classList.add("open");
         haganado = true;
         fin = true;
